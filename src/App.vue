@@ -34,7 +34,7 @@ export default {
       axios
         .get('https://api.themoviedb.org/3/movie/popular', {
           params: {
-            api_key: 'TU_CLAVE_DE_API',
+            api_key: '0cf648c260a872eaeec076543d5ffe10',
           },
         })
         .then(response => {
